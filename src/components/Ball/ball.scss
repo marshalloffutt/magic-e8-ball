@@ -1,0 +1,48 @@
+.ball {
+  align-items: center;
+  background: radial-gradient(circle at 100px 100px, #222, #000);
+  border-radius: 50%;
+  box-shadow: 15px 20px 60px 10px purple;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+
+.reservoir {
+  align-items: center;
+  background: radial-gradient(ellipse at center, rgba(20, 13, 83, 0.4) 0%, rgba(20, 13, 83, 0.4) 100%);
+  border: 3px solid #111;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  width: 40%;
+  overflow: hidden;
+}
+
+.d20 {
+  align-items: center;
+  background: #3655df;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(100% 87%, 50% 0%, 50% 0%, 0% 87%);
+  clip-path: polygon(100% 87%, 50% 0%, 50% 0%, 0% 87%);
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  transform: scale(0.85) rotate(180deg);
+  width: 90%;
+}
+
+.answer {
+  transform: rotate(180deg);
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
