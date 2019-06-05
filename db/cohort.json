@@ -1,0 +1,97 @@
+{
+  "student1": {
+    "firstName": "Austin",
+    "lastName": "Cumberlander",
+    "linkedIn": "https://www.linkedin.com/in/austincumberlander/"
+  },
+  "student2": {
+    "firstName": "Chase",
+    "lastName": "Hamby",
+    "linkedIn": "https://www.linkedin.com/in/chase-hamby-17a47070/"
+  },
+  "student3": {
+    "firstName": "Colin",
+    "lastName": "White",
+    "linkedIn": "https://www.linkedin.com/in/colinlwhite/"
+  },
+  "student4": {
+    "firstName": "Dylan",
+    "lastName": "Murray",
+    "linkedIn": "https://www.linkedin.com/in/dylanrmurray/"
+  },
+  "student5": {
+    "firstName": "Feven",
+    "lastName": "Mulugeta",
+    "linkedIn": "https://www.linkedin.com/in/feven-mulugeta/"
+  },
+  "student6": {
+    "firstName": "Jasmine",
+    "lastName": "Walters",
+    "linkedIn": "https://www.linkedin.com/in/jasmine-walters/"
+  },
+  "student7": {
+    "firstName": "Jonathan",
+    "lastName": "Mohan",
+    "linkedIn": "https://www.linkedin.com/in/jonathanpmohan/"
+  },
+  "student8": {
+    "firstName": "Lance",
+    "lastName": "Hamilton",
+    "linkedIn": "https://www.linkedin.com/in/lance-hamilton-766770125/"
+  },
+  "student9": {
+    "firstName": "Maggie",
+    "lastName": "Leavell",
+    "linkedIn": "https://www.linkedin.com/in/maggie-leavell/"
+  },
+  "student10": {
+    "firstName": "Marco",
+    "lastName": "Crank",
+    "linkedIn": "https://www.linkedin.com/in/marcocrank/"
+  },
+  "student11": {
+    "firstName": "Marshall",
+    "lastName": "Offutt",
+    "linkedIn": "https://www.linkedin.com/in/marshalloffutt/"
+  },
+  "student12": {
+    "firstName": "Mary",
+    "lastName": "Rys",
+    "linkedIn": "https://www.linkedin.com/in/maryrys/"
+  },
+  "student13": {
+    "firstName": "Michelle",
+    "lastName": "Beshears",
+    "linkedIn": "https://www.linkedin.com/in/michelle-beshears/"
+  },
+  "student14": {
+    "firstName": "Rich",
+    "lastName": "Fisher",
+    "linkedIn": "https://github.com/Rfishernc?tab=repositories"
+  },
+  "student15": {
+    "firstName": "Ripal",
+    "lastName": "Patel",
+    "linkedIn": "https://www.linkedin.com/in/ripalben-patel/"
+  },
+  "student16": {
+    "firstName": "Robert",
+    "lastName": "Rice",
+    "linkedIn": "https://www.linkedin.com/in/robertrice2/"
+  },
+  "student17": {
+    "firstName": "Shane",
+    "lastName": "Wilson",
+    "linkedIn": "https://www.linkedin.com/in/wilsonshaned/"
+  },
+  "student18": {
+    "firstName": "Timothy",
+    "lastName": "Harley",
+    "linkedIn": "https://www.linkedin.com/in/tim-harley/"
+  },
+  "student19": {
+    "firstName": "Wayne",
+    "lastName": "Collier",
+    "linkedIn": "https://www.linkedin.com/in/wayne-collier/"
+  }
+}
