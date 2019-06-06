@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import Header from '../components/Header/Header';
-import Ball from '../components/Ball/Ball';
+import Ball from '../components/Ball/ball';
 import connection from '../helpers/data/connection';
 import getStudents from '../helpers/data/studentRequests';
 import superComplexAlgorithm from '../helpers/superComplexAlgorithm';

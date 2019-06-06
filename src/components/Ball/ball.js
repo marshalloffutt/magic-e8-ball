@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Ball.scss';
+import './ball.scss';
 
 class Ball extends React.Component {
   static propTypes = {
