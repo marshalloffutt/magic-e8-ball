@@ -28,3 +28,6 @@ Note: To run this app you will need a firebase account and a new project.
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Acknowledgements
+[Jonathan Mohan](https://github.com/JonathanPMohan) provided the logo for the header.
