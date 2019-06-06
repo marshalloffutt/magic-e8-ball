@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import Ball from '../components/Ball/ball';
+import Header from '../components/Header/Header';
+import Ball from '../components/Ball/Ball';
 import connection from '../helpers/data/connection';
 import getStudents from '../helpers/data/studentRequests';
 import superComplexAlgorithm from '../helpers/superComplexAlgorithm';
@@ -33,10 +34,12 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <Header />
         <Button
+          className="mt-4"
           color="danger"
           onClick={this.getSingleStudent}
-          >Click Me!</Button>
+          >Who should I hire?</Button>
         <Ball
           singleStudent = {singleStudent}
         />
