@@ -18,9 +18,9 @@ class Ball extends React.Component {
           <div className="reservoir">
             <div className="d20">
               <div className="answer">
-                <p>{singleStudent.firstName}
+                <a className="name" href={singleStudent.linkedIn} target="_blank">{singleStudent.firstName}
                   <br/>{singleStudent.lastName}
-                </p>
+                </a>
               </div>
             </div>
           </div>

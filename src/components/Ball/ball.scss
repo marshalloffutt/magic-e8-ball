@@ -4,7 +4,7 @@
   border-radius: 50%;
   box-shadow: 15px 20px 60px 10px purple;
   box-sizing: border-box;
-  cursor: pointer;
+  
   display: flex;
   justify-content: center;
   height: 400px;
@@ -38,12 +38,24 @@
   position: relative;
   transform: scale(0.85) rotate(180deg);
   width: 90%;
+  transition: ease-in .4s;
 }
 
 .answer {
   transform: rotate(180deg);
-  color: white;
-  font-size: 0.9rem;
   text-align: center;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.name {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+  &:hover {
+    color: rgb(187, 187, 202);
+    font-size: 1rem;
+    transition: ease-in-out .4s;
+    text-decoration: none;
+  }
 }
