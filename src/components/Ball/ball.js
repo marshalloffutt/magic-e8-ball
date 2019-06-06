@@ -1,18 +1,34 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './ball.scss';
 
 class Ball extends React.Component {
+  static propTypes = {
+    singleStudent: PropTypes.object,
+  }
+
   render() {
-    return (
+    const { singleStudent } = this.props;
+
+    const student = this.props.singleStudent;
+
+    if (Object.keys(student).length > 0) {
+      return (
         <div className="ball">
           <div className="reservoir">
             <div className="d20">
               <div className="answer">
-                <p>FIRSTNAME
-                  <br/>LASTNAME
+                <p>{singleStudent.firstName}
+                  <br/>{singleStudent.lastName}
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      );
+    } return (
+        <div className="ball">
+          <div className="reservoir">
           </div>
         </div>
     );
