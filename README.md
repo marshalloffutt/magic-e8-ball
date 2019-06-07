@@ -4,6 +4,10 @@ This is my implementation of a simple magic 8 ball web app. The purpose is to pr
 
 Current deployed build: [link]( https://magic-e8-ball.firebaseapp.com/)
 
+## Screenshots
+![Screenshot1](src/images/screenshot-1.png)
+![Screenshot2](src/images/screenshot-2.png)
+
 ## Technologies Used
 * React
 * Sass
