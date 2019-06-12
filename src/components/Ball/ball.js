@@ -27,8 +27,8 @@ class Ball extends React.Component {
         </div>
       );
     } return (
-        <div className="ball">
-          <div className="reservoir">
+        <div className="ball animated shake ">
+          <div className="reservoir animated shake">
           </div>
         </div>
     );
