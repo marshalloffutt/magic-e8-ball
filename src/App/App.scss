@@ -1,18 +1,15 @@
 .App {
   text-align: center;
   background-image: url("https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg");
-  background-attachment: fixed;
-
-}
-
-body {
-  background-color: black;
+  // background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 
 /*    start code for the actual button:         */
 
 
-/*   
+/*
     Spot is the span on the inside of the href that
     fills the parent and makes the hover and link work
     for the entire div
@@ -26,9 +23,10 @@ body {
   top: 0;
   left: 0;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 /*
-    This is the outer svg wrapper that the SVG itself will 
+    This is the outer svg wrapper that the SVG itself will
     fill. Multiple svg-wrapper classes can be put side by side.
 */
 
@@ -58,7 +56,7 @@ body {
   transition: 1s all ease;
   border-radius: 15px;
 }
-/* 
+/*
     Pushing the text up into the SVG. Without this the
     text would be below the div's.
 */
@@ -70,7 +68,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-/* 
+/*
     Changing the shape on hover. I change the color of the stroke,
 make it thinner, then set it to again wrap around the entire parent element.
 */
