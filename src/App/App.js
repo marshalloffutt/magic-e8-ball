@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+//import { Button } from 'reactstrap';
 import Header from '../components/Header/Header';
 import Ball from '../components/Ball/ball';
 import connection from '../helpers/data/connection';
@@ -35,15 +35,25 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Button
+        {/* <Button
           className="mt-4"
           color="danger"
           onClick={this.getSingleStudent}
-          >Who should I hire?</Button>
+          >Who should I hire?</Button> */}
+
+                <div className="svg-wrapper" onClick={this.getSingleStudent}>
+                <svg height="70" width="225" xmlns="http://www.w3.org/2000/svg">
+                  <rect id="shape" height="40" width="225" />
+                </svg>
+                <div id="text">
+                  <span className="spot">WHO SHOULD I HIRE?</span>
+                </div>
+</div>
         <Ball
           singleStudent = {singleStudent}
         />
       </div>
+
     );
   }
 }
